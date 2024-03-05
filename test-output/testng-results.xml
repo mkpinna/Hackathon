@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="19" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T10:49:04 IST" name="Suite" finished-at="2024-03-01T10:50:10 IST" duration-ms="65598">
+    <groups>
+      <group name="smoke Test one">
+        <method signature="Tests.open_travel_insurance()[pri:1, instance:TestCases.Tests@7dc0f706]" name="open_travel_insurance" class="TestCases.Tests"/>
+      </group> <!-- smoke Test one -->
+      <group name="regression Test One">
+        <method signature="Tests.select_destination()[pri:2, instance:TestCases.Tests@7dc0f706]" name="select_destination" class="TestCases.Tests"/>
+        <method signature="Tests.next_Fuctionality()[pri:3, instance:TestCases.Tests@7dc0f706]" name="next_Fuctionality" class="TestCases.Tests"/>
+        <method signature="Tests.click_Date()[pri:4, instance:TestCases.Tests@7dc0f706]" name="click_Date" class="TestCases.Tests"/>
+        <method signature="Tests.select_Date()[pri:5, instance:TestCases.Tests@7dc0f706]" name="select_Date" class="TestCases.Tests"/>
+        <method signature="Tests.click_No_of_persons()[pri:6, instance:TestCases.Tests@7dc0f706]" name="click_No_of_persons" class="TestCases.Tests"/>
+        <method signature="Tests.drop_1()[pri:7, instance:TestCases.Tests@7dc0f706]" name="drop_1" class="TestCases.Tests"/>
+        <method signature="Tests.drop_2_and_Next()[pri:8, instance:TestCases.Tests@7dc0f706]" name="drop_2_and_Next" class="TestCases.Tests"/>
+        <method signature="Tests.press_no()[pri:9, instance:TestCases.Tests@7dc0f706]" name="press_no" class="TestCases.Tests"/>
+        <method signature="Tests.next_click_no()[pri:10, instance:TestCases.Tests@7dc0f706]" name="next_click_no" class="TestCases.Tests"/>
+        <method signature="Tests.enter_mob_no()[pri:11, instance:TestCases.Tests@7dc0f706]" name="enter_mob_no" class="TestCases.Tests"/>
+        <method signature="Tests.press_Viewplan()[pri:12, instance:TestCases.Tests@7dc0f706]" name="press_Viewplan" class="TestCases.Tests"/>
+        <method signature="Tests.lowest_prices_of_three_insurances()[pri:13, instance:TestCases.Tests@7dc0f706]" name="lowest_prices_of_three_insurances" class="TestCases.Tests"/>
+        <method signature="Tests.print_First_Three_companies()[pri:14, instance:TestCases.Tests@7dc0f706]" name="print_First_Three_companies" class="TestCases.Tests"/>
+      </group> <!-- regression Test One -->
+      <group name="regression Test Three">
+        <method signature="Tests.entering_health_insurance_details()[pri:20, instance:TestCases.Tests@7dc0f706]" name="entering_health_insurance_details" class="TestCases.Tests"/>
+      </group> <!-- regression Test Three -->
+      <group name="smoke Test Two">
+        <method signature="Tests.open_car_insurance()[pri:15, instance:TestCases.Tests@7dc0f706]" name="open_car_insurance" class="TestCases.Tests"/>
+      </group> <!-- smoke Test Two -->
+      <group name="regression Test Two">
+        <method signature="Tests.enter_new_car_details()[pri:16, instance:TestCases.Tests@7dc0f706]" name="enter_new_car_details" class="TestCases.Tests"/>
+        <method signature="Tests.enter_invalid_email()[pri:17, instance:TestCases.Tests@7dc0f706]" name="enter_invalid_email" class="TestCases.Tests"/>
+        <method signature="Tests.enter_valid_email()[pri:18, instance:TestCases.Tests@7dc0f706]" name="enter_valid_email" class="TestCases.Tests"/>
+      </group> <!-- regression Test Two -->
+    </groups>
+    <test started-at="2024-03-01T10:49:04 IST" name="ChromeTest" finished-at="2024-03-01T10:50:10 IST" duration-ms="65598">
+      <class name="TestCases.Tests">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:05 IST" name="beforeClass" finished-at="2024-03-01T10:49:14 IST" duration-ms="9495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="open_travel_insurance()[pri:1, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:14 IST" name="open_travel_insurance" finished-at="2024-03-01T10:49:15 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_travel_insurance -->
+        <test-method signature="select_destination()[pri:2, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:15 IST" name="select_destination" depends-on-groups="smoke Test one" finished-at="2024-03-01T10:49:18 IST" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_destination -->
+        <test-method signature="next_Fuctionality()[pri:3, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:18 IST" name="next_Fuctionality" finished-at="2024-03-01T10:49:20 IST" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- next_Fuctionality -->
+        <test-method signature="click_Date()[pri:4, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:20 IST" name="click_Date" finished-at="2024-03-01T10:49:20 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Date -->
+        <test-method signature="select_Date()[pri:5, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:20 IST" name="select_Date" finished-at="2024-03-01T10:49:22 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Date -->
+        <test-method signature="click_No_of_persons()[pri:6, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:22 IST" name="click_No_of_persons" finished-at="2024-03-01T10:49:22 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_No_of_persons -->
+        <test-method signature="drop_1()[pri:7, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:22 IST" name="drop_1" finished-at="2024-03-01T10:49:22 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop_1 -->
+        <test-method signature="drop_2_and_Next()[pri:8, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:22 IST" name="drop_2_and_Next" finished-at="2024-03-01T10:49:23 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop_2_and_Next -->
+        <test-method signature="press_no()[pri:9, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:23 IST" name="press_no" finished-at="2024-03-01T10:49:23 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- press_no -->
+        <test-method signature="next_click_no()[pri:10, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:23 IST" name="next_click_no" finished-at="2024-03-01T10:49:23 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- next_click_no -->
+        <test-method signature="enter_mob_no()[pri:11, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:23 IST" name="enter_mob_no" finished-at="2024-03-01T10:49:25 IST" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_mob_no -->
+        <test-method signature="press_Viewplan()[pri:12, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:25 IST" name="press_Viewplan" finished-at="2024-03-01T10:49:25 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- press_Viewplan -->
+        <test-method signature="lowest_prices_of_three_insurances()[pri:13, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:25 IST" name="lowest_prices_of_three_insurances" finished-at="2024-03-01T10:49:40 IST" duration-ms="15491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lowest_prices_of_three_insurances -->
+        <test-method signature="print_First_Three_companies()[pri:14, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:40 IST" name="print_First_Three_companies" finished-at="2024-03-01T10:49:41 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_First_Three_companies -->
+        <test-method signature="go_To_Home_Page()[pri:15, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:41 IST" name="go_To_Home_Page" finished-at="2024-03-01T10:49:43 IST" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_To_Home_Page -->
+        <test-method signature="open_car_insurance()[pri:15, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:43 IST" name="open_car_insurance" finished-at="2024-03-01T10:49:43 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_car_insurance -->
+        <test-method signature="enter_new_car_details()[pri:16, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:43 IST" name="enter_new_car_details" depends-on-groups="smoke Test Two" finished-at="2024-03-01T10:49:51 IST" duration-ms="7851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_new_car_details -->
+        <test-method signature="enter_invalid_email()[pri:17, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:51 IST" name="enter_invalid_email" finished-at="2024-03-01T10:49:53 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_email -->
+        <test-method signature="enter_valid_email()[pri:18, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:49:53 IST" name="enter_valid_email" finished-at="2024-03-01T10:50:09 IST" duration-ms="16200" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='summaryFormPF']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [394d3f0b2148edd59d6c825523a91528, findElement {value=summaryFormPF, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55879/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 394d3f0b2148edd59d6c825523a91528]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='summaryFormPF']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [394d3f0b2148edd59d6c825523a91528, findElement {value=summaryFormPF, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55879/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 394d3f0b2148edd59d6c825523a91528
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source)
+at pageObjects.CarInsurancePOM.getInsuranceQuote(CarInsurancePOM.java:179)
+at TestCases.Tests.enter_valid_email(Tests.java:187)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_valid_email -->
+        <test-method signature="go_to_HomePage()[pri:19, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:50:09 IST" name="go_to_HomePage" finished-at="2024-03-01T10:50:09 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_HomePage -->
+        <test-method signature="entering_health_insurance_details()[pri:20, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:50:09 IST" name="entering_health_insurance_details" finished-at="2024-03-01T10:50:09 IST" duration-ms="109" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [394d3f0b2148edd59d6c825523a91528, actions {actions=[org.openqa.selenium.interactions.Sequence@72e21356]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55879/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 394d3f0b2148edd59d6c825523a91528]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [394d3f0b2148edd59d6c825523a91528, actions {actions=[org.openqa.selenium.interactions.Sequence@72e21356]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55879/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 394d3f0b2148edd59d6c825523a91528
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:713)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
+at pageObjects.Health_InsurancePOM.hoverToInsuraceProducts(Health_InsurancePOM.java:26)
+at TestCases.Tests.entering_health_insurance_details(Tests.java:205)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 34 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 55 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[text()="Insurance Products "]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+... 60 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entering_health_insurance_details -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestCases.Tests@7dc0f706]" started-at="2024-03-01T10:50:09 IST" name="afterClass" finished-at="2024-03-01T10:50:10 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCases.Tests -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

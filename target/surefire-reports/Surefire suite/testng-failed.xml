@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="TestCases.Tests">
+        <methods>
+          <include name="drop_1"/>
+          <include name="enter_new_car_details"/>
+          <include name="click_Date"/>
+          <include name="drop_2_and_Next"/>
+          <include name="enter_valid_email"/>
+          <include name="open_car_insurance"/>
+          <include name="next_Fuctionality"/>
+          <include name="lowest_prices_of_three_insurances"/>
+          <include name="select_destination"/>
+          <include name="next_click_no"/>
+          <include name="select_Date"/>
+          <include name="press_no"/>
+          <include name="open_travel_insurance"/>
+          <include name="press_Viewplan"/>
+          <include name="go_to_HomePage"/>
+          <include name="print_First_Three_companies"/>
+          <include name="beforeClass"/>
+          <include name="click_No_of_persons"/>
+          <include name="go_To_Home_Page"/>
+          <include name="enter_mob_no"/>
+          <include name="enter_invalid_email"/>
+          <include name="entering_health_insurance_details"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCases.Tests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

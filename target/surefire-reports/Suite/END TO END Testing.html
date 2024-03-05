@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  END TO END Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>END TO END Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 04 23:53:14 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>67 seconds (67342 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.Tests.drop_2_and_Next()'><b>drop_2_and_Next</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.lowest_prices_of_three_insurances()'><b>lowest_prices_of_three_insurances</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>15</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.drop_1()'><b>drop_1</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.enter_new_car_details()'><b>enter_new_car_details</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>7</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.select_Date()'><b>select_Date</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.click_No_of_persons()'><b>click_No_of_persons</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.next_Fuctionality()'><b>next_Fuctionality</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.go_to_HomePage()'><b>go_to_HomePage</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.select_destination()'><b>select_destination</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>3</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.next_click_no()'><b>next_click_no</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.go_To_Home_Page()'><b>go_To_Home_Page</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.entering_health_insurance_details()'><b>entering_health_insurance_details</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.enter_invalid_email()'><b>enter_invalid_email</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.click_Date()'><b>click_Date</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.enter_valid_email()'><b>enter_valid_email</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>6</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.enter_mob_no()'><b>enter_mob_no</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.press_no()'><b>press_no</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.press_Viewplan()'><b>press_Viewplan</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.print_First_Three_companies()'><b>print_First_Three_companies</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.open_car_insurance()'><b>open_car_insurance</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+<tr>
+<td title='TestCases.Tests.open_travel_insurance()'><b>open_travel_insurance</b><br>Test class: TestCases.Tests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Tests@351d00c0</td></tr>
+</table><p>
+</body>
+</html>
