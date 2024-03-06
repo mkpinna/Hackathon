@@ -10,19 +10,15 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import Utilities.ExcelUtil;
 
-public class TravelInsurancePOM {
-	WebDriver driver;
+public class TravelInsurancePOM extends BasePage{
 	JavascriptExecutor js;
 	
 	public TravelInsurancePOM(WebDriver driver)
 	{
-		this.driver=driver;
-		js=(JavascriptExecutor)driver;
-		PageFactory.initElements(driver,this);
+		super(driver);
 	}
 
 	@FindBy(xpath="(//div[@class='shadowHandlerBox'])[7]//ancestor::a")
@@ -31,6 +27,7 @@ public class TravelInsurancePOM {
 	public void clickTravelInsurance()
 	{
 		travelInsurance.click();
+		js=(JavascriptExecutor)driver;
 	}
 	
 	@FindBy(xpath="//*[@id=\"input-row\"]")
@@ -75,26 +72,24 @@ public class TravelInsurancePOM {
 	{
 		Date.click();
 	}
+	@FindBy(xpath="//*[@class=\"MuiPickersCalendar-weekContainer\"]//*[@class=\"MuiPickersDateRangeDay-root\"]")
+	List<WebElement> dates;
 	
 	public void selectDates()
 	{
 
 	    LocalDate localDate = LocalDate.now();//For reference
-	    LocalDate next1=localDate.plusDays(1);
 		LocalDate next = localDate.plusDays(10);
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
-		String formmatedCurrDate=next1.format(formatter);
+		String formmatedCurrDate=localDate.format(formatter);
 		String formattedNextString = next.format(formatter);
 		String chekinDate=formmatedCurrDate.substring(1,2);
-		System.out.print(chekinDate);
-		System.out.println(formattedNextString);
-		String endDate = formattedNextString.substring(0,2);
-		System.out.print(endDate);
-		List<WebElement> dates=driver.findElements(By.xpath("//*[@class=\"MuiPickersCalendar-weekContainer\"]//*[@class=\"MuiPickersDateRangeDay-root\"]"));
+		String endDate=formattedNextString.substring(0,2);
+		System.out.println("Checkin Date"+chekinDate);
+		System.out.println("Checkout Date"+endDate);
 		for(WebElement ele: dates)
 		{
 			String val=ele.getText();
-			System.out.print(val);
 			if(val.equalsIgnoreCase(chekinDate))
 			{
 				ele.click();

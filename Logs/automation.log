@@ -359,3 +359,236 @@
 23:54:19.186 [main] INFO  - User Hovered on Insurance Products..
 23:54:19.573 [main] INFO  - User Printed All The Health Insurances..
 23:54:19.573 [main] INFO  - Log End ..
+14:04:39.992 [main] INFO  - Log Started In TestNG..
+14:04:40.001 [main] INFO  - User Clicked Travel Insurance..
+14:04:45.577 [main] INFO  - User Clicked Clicked Destination..
+14:04:46.517 [main] INFO  - User Selected Destination..
+14:48:08.033 [main] INFO  - Log Started In TestNG..
+14:48:08.039 [main] INFO  - User Clicked Travel Insurance..
+14:48:14.024 [main] INFO  - User Clicked Clicked Destination..
+14:48:15.510 [main] INFO  - User Selected Destination..
+14:50:43.852 [main] INFO  - Log Started In TestNG..
+14:50:43.862 [main] INFO  - User Clicked Travel Insurance..
+14:52:54.414 [main] INFO  - Log Started In TestNG..
+14:52:54.431 [main] INFO  - User Clicked Travel Insurance..
+14:53:00.792 [main] INFO  - User Clicked Clicked Destination..
+14:53:01.476 [main] INFO  - User Selected Destination..
+14:57:27.342 [main] INFO  - Log Started In TestNG..
+14:57:27.353 [main] INFO  - User Clicked Travel Insurance..
+14:57:32.387 [main] INFO  - User Clicked Clicked Destination..
+14:57:32.987 [main] INFO  - User Selected Destination..
+14:59:07.966 [main] INFO  - Log Started In TestNG..
+14:59:07.976 [main] INFO  - User Clicked Travel Insurance..
+14:59:12.764 [main] INFO  - User Clicked Clicked Destination..
+14:59:13.358 [main] INFO  - User Selected Destination..
+14:59:18.004 [main] INFO  - User Opted the Dates..
+15:01:37.747 [main] INFO  - Log Started In TestNG..
+15:01:37.755 [main] INFO  - User Clicked Travel Insurance..
+15:02:05.257 [main] INFO  - User Opted the Dates..
+15:03:04.364 [main] INFO  - Log Started In TestNG..
+15:03:04.372 [main] INFO  - User Clicked Travel Insurance..
+15:03:25.851 [main] INFO  - User Opted the Dates..
+15:03:53.675 [main] INFO  - Log Started In TestNG..
+15:03:53.681 [main] INFO  - User Clicked Travel Insurance..
+15:03:58.614 [main] INFO  - User Clicked Clicked Destination..
+15:03:59.641 [main] INFO  - User Selected Destination..
+15:04:04.891 [main] INFO  - User Opted the Dates..
+15:09:11.677 [main] INFO  - Log Started In TestNG..
+15:09:11.685 [main] INFO  - User Clicked Travel Insurance..
+15:09:17.009 [main] INFO  - User Clicked Clicked Destination..
+15:09:17.827 [main] INFO  - User Selected Destination..
+15:09:21.818 [main] INFO  - User Opted the Dates..
+15:09:22.799 [main] INFO  - User selected no of persons..
+15:09:23.547 [main] INFO  - User selected first person age..
+15:09:24.119 [main] INFO  - User selected second person age..
+15:09:25.018 [main] INFO  - User Clicked No For Medical Problems..
+15:09:35.480 [main] INFO  - User Entered Mobile Number..
+15:09:51.542 [main] INFO  - User Selected Sort Price Low TO High..
+15:09:52.346 [main] INFO  - User Printed The First Three Companies..
+15:09:54.748 [main] INFO  - User Navigated to Home Page..
+15:10:29.918 [main] INFO  - User Navigated To The Home Page..
+15:11:21.817 [main] INFO  - Log Started In TestNG..
+15:11:21.838 [main] INFO  - User Clicked Travel Insurance..
+15:11:27.241 [main] INFO  - User Clicked Clicked Destination..
+15:11:27.998 [main] INFO  - User Selected Destination..
+15:11:32.712 [main] INFO  - User Opted the Dates..
+15:11:33.689 [main] INFO  - User selected no of persons..
+15:11:34.368 [main] INFO  - User selected first person age..
+15:11:34.852 [main] INFO  - User selected second person age..
+15:11:35.896 [main] INFO  - User Clicked No For Medical Problems..
+15:11:38.072 [main] INFO  - User Entered Mobile Number..
+15:11:54.203 [main] INFO  - User Selected Sort Price Low TO High..
+15:11:55.532 [main] INFO  - User Printed The First Three Companies..
+15:11:58.285 [main] INFO  - User Navigated to Home Page..
+15:12:33.841 [main] INFO  - User Navigated To The Home Page..
+15:13:41.699 [main] INFO  - Log Started In TestNG..
+15:13:41.706 [main] INFO  - User Clicked Travel Insurance..
+15:13:45.930 [main] INFO  - User Clicked Clicked Destination..
+15:13:46.692 [main] INFO  - User Selected Destination..
+15:13:50.861 [main] INFO  - User Opted the Dates..
+15:13:51.801 [main] INFO  - User selected no of persons..
+15:13:52.258 [main] INFO  - User selected first person age..
+15:13:52.701 [main] INFO  - User selected second person age..
+15:13:53.761 [main] INFO  - User Clicked No For Medical Problems..
+15:13:56.121 [main] INFO  - User Entered Mobile Number..
+15:14:12.033 [main] INFO  - User Selected Sort Price Low TO High..
+15:14:12.759 [main] INFO  - User Printed The First Three Companies..
+15:14:15.812 [main] INFO  - User Navigated to Home Page..
+15:14:20.462 [main] INFO  - User Clicked Buying New Cars..
+15:14:54.432 [main] INFO  - User Navigated To The Home Page..
+15:15:43.476 [main] INFO  - Log Started In TestNG..
+15:15:43.485 [main] INFO  - User Clicked Travel Insurance..
+15:15:48.277 [main] INFO  - User Clicked Clicked Destination..
+15:15:49.050 [main] INFO  - User Selected Destination..
+15:15:53.123 [main] INFO  - User Opted the Dates..
+15:15:54.053 [main] INFO  - User selected no of persons..
+15:15:54.486 [main] INFO  - User selected first person age..
+15:15:54.904 [main] INFO  - User selected second person age..
+15:15:55.656 [main] INFO  - User Clicked No For Medical Problems..
+15:15:58.026 [main] INFO  - User Entered Mobile Number..
+15:16:13.955 [main] INFO  - User Selected Sort Price Low TO High..
+15:16:14.762 [main] INFO  - User Printed The First Three Companies..
+15:16:18.938 [main] INFO  - User Navigated to Home Page..
+15:16:22.819 [main] INFO  - User Clicked Buying New Cars..
+15:16:56.456 [main] INFO  - User Navigated To The Home Page..
+15:16:56.747 [main] INFO  - User Hovered on Insurance Products..
+15:16:57.271 [main] INFO  - User Printed All The Health Insurances..
+15:16:57.272 [main] INFO  - Log End ..
+15:42:37.625 [main] INFO  - User Clicked Buying New Cars..
+15:42:38.532 [main] INFO  - User Selected City as Delhi..
+15:42:38.690 [main] INFO  - User Selected Area As DL2..
+15:42:39.072 [main] INFO  - User Selected Car As Volkswagon..
+15:42:39.589 [main] INFO  - User Selected Car Name as Ameo..
+15:42:40.205 [main] INFO  - User Selected Fuel Type as Petrol..
+15:42:40.809 [main] INFO  - User Selected The Model As Highline plus..
+15:42:41.628 [main] INFO  - User Entered Invalid Email Id..
+15:42:41.844 [main] INFO  - User Captured The ScreenShot of It..
+15:42:42.230 [main] INFO  - User Entered Valid Email..
+15:42:42.365 [main] INFO  - User Captured Screenshot of Valid Email..
+15:49:26.343 [main] INFO  - User Clicked Buying New Cars..
+15:49:27.268 [main] INFO  - User Selected City as Delhi..
+15:49:27.438 [main] INFO  - User Selected Area As DL2..
+15:49:28.115 [main] INFO  - User Selected Car As Volkswagon..
+15:49:28.649 [main] INFO  - User Selected Car Name as Ameo..
+15:49:29.205 [main] INFO  - User Selected Fuel Type as Petrol..
+15:49:29.754 [main] INFO  - User Selected The Model As Highline plus..
+15:49:30.497 [main] INFO  - User Entered Invalid Email Id..
+15:49:30.701 [main] INFO  - User Captured The ScreenShot of It..
+15:49:31.114 [main] INFO  - User Entered Valid Email..
+15:49:31.311 [main] INFO  - User Captured Screenshot of Valid Email..
+15:49:41.719 [main] INFO  - User Clicked On the Delhivery in next 7 Days..
+15:49:41.905 [main] INFO  - User Enetred Car Ex Show Room Price As 9 Lakhs..
+15:49:45.087 [main] INFO  - User Selected The First Car Insurace Company..
+15:49:47.962 [main] INFO  - User Printed the Car Insurance Quote For That Company..
+15:52:23.798 [main] INFO  - User Clicked Buying New Cars..
+15:52:25.302 [main] INFO  - User Selected City as Delhi..
+15:52:25.483 [main] INFO  - User Selected Area As DL2..
+15:52:25.890 [main] INFO  - User Selected Car As Volkswagon..
+15:52:26.395 [main] INFO  - User Selected Car Name as Ameo..
+15:52:26.927 [main] INFO  - User Selected Fuel Type as Petrol..
+15:52:27.554 [main] INFO  - User Selected The Model As Highline plus..
+15:52:28.384 [main] INFO  - User Entered Invalid Email Id..
+15:52:28.615 [main] INFO  - User Captured The ScreenShot of It..
+15:52:29.057 [main] INFO  - User Entered Valid Email..
+15:52:29.195 [main] INFO  - User Captured Screenshot of Valid Email..
+15:56:27.106 [main] INFO  - User Clicked Buying New Cars..
+15:56:28.296 [main] INFO  - User Selected City as Delhi..
+15:56:28.454 [main] INFO  - User Selected Area As DL2..
+15:56:28.906 [main] INFO  - User Selected Car As Volkswagon..
+15:56:29.540 [main] INFO  - User Selected Car Name as Ameo..
+15:56:30.181 [main] INFO  - User Selected Fuel Type as Petrol..
+15:56:30.804 [main] INFO  - User Selected The Model As Highline plus..
+15:56:31.933 [main] INFO  - User Entered Invalid Email Id..
+15:56:32.194 [main] INFO  - User Captured The ScreenShot of It..
+15:56:32.758 [main] INFO  - User Entered Valid Email..
+15:56:32.934 [main] INFO  - User Captured Screenshot of Valid Email..
+15:56:43.740 [main] INFO  - User Clicked On the Delhivery in next 7 Days..
+15:56:43.962 [main] INFO  - User Enetred Car Ex Show Room Price As 9 Lakhs..
+15:56:47.114 [main] INFO  - User Selected The First Car Insurace Company..
+15:56:50.531 [main] INFO  - User Printed the Car Insurance Quote For That Company..
+15:58:54.710 [main] INFO  - User Clicked Buying New Cars..
+15:58:55.636 [main] INFO  - User Selected City as Delhi..
+15:58:55.793 [main] INFO  - User Selected Area As DL2..
+15:58:56.201 [main] INFO  - User Selected Car As Volkswagon..
+15:58:56.694 [main] INFO  - User Selected Car Name as Ameo..
+15:58:57.305 [main] INFO  - User Selected Fuel Type as Petrol..
+15:58:57.902 [main] INFO  - User Selected The Model As Highline plus..
+15:58:58.791 [main] INFO  - User Entered Invalid Email Id..
+15:58:59.524 [main] INFO  - User Captured The ScreenShot of It..
+15:59:00.005 [main] INFO  - User Entered Valid Email..
+15:59:00.186 [main] INFO  - User Captured Screenshot of Valid Email..
+15:59:03.480 [main] INFO  - User Clicked On the Delhivery in next 7 Days..
+15:59:03.682 [main] INFO  - User Enetred Car Ex Show Room Price As 9 Lakhs..
+15:59:06.311 [main] INFO  - User Selected The First Car Insurace Company..
+15:59:09.037 [main] INFO  - User Printed the Car Insurance Quote For That Company..
+16:00:26.140 [main] INFO  - User Clicked Buying New Cars..
+16:00:27.378 [main] INFO  - User Selected City as Delhi..
+16:00:27.530 [main] INFO  - User Selected Area As DL2..
+16:00:28.079 [main] INFO  - User Selected Car As Volkswagon..
+16:00:28.740 [main] INFO  - User Selected Car Name as Ameo..
+16:00:29.380 [main] INFO  - User Selected Fuel Type as Petrol..
+16:00:30.023 [main] INFO  - User Selected The Model As Highline plus..
+16:00:30.957 [main] INFO  - User Entered Invalid Email Id..
+16:00:31.220 [main] INFO  - User Captured The ScreenShot of It..
+16:00:31.739 [main] INFO  - User Entered Valid Email..
+16:00:31.915 [main] INFO  - User Captured Screenshot of Valid Email..
+16:00:36.384 [main] INFO  - User Clicked On the Delhivery in next 7 Days..
+16:00:36.639 [main] INFO  - User Enetred Car Ex Show Room Price As 9 Lakhs..
+16:00:39.467 [main] INFO  - User Selected The First Car Insurace Company..
+16:00:44.056 [main] INFO  - User Printed the Car Insurance Quote For That Company..
+16:02:40.810 [main] INFO  - User Clicked Buying New Cars..
+16:02:42.166 [main] INFO  - User Selected City as Delhi..
+16:02:42.351 [main] INFO  - User Selected Area As DL2..
+16:02:42.844 [main] INFO  - User Selected Car As Volkswagon..
+16:02:43.423 [main] INFO  - User Selected Car Name as Ameo..
+16:02:44.011 [main] INFO  - User Selected Fuel Type as Petrol..
+16:02:44.668 [main] INFO  - User Selected The Model As Highline plus..
+16:02:45.829 [main] INFO  - User Entered Invalid Email Id..
+16:02:46.127 [main] INFO  - User Captured The ScreenShot of It..
+16:02:46.672 [main] INFO  - User Entered Valid Email..
+16:02:46.879 [main] INFO  - User Captured Screenshot of Valid Email..
+16:02:51.038 [main] INFO  - User Clicked On the Delhivery in next 7 Days..
+16:02:51.255 [main] INFO  - User Enetred Car Ex Show Room Price As 9 Lakhs..
+16:02:53.789 [main] INFO  - User Selected The First Car Insurace Company..
+16:02:58.288 [main] INFO  - User Printed the Car Insurance Quote For That Company..
+16:06:17.205 [main] INFO  - User Clicked Buying New Cars..
+16:06:18.136 [main] INFO  - User Selected City as Delhi..
+16:06:18.294 [main] INFO  - User Selected Area As DL2..
+16:06:18.930 [main] INFO  - User Selected Car As Volkswagon..
+16:06:19.579 [main] INFO  - User Selected Car Name as Ameo..
+16:06:20.218 [main] INFO  - User Selected Fuel Type as Petrol..
+16:06:20.840 [main] INFO  - User Selected The Model As Highline plus..
+16:06:21.895 [main] INFO  - User Entered Invalid Email Id..
+16:06:22.155 [main] INFO  - User Captured The ScreenShot of It..
+16:06:22.778 [main] INFO  - User Entered Valid Email..
+16:06:22.984 [main] INFO  - User Captured Screenshot of Valid Email..
+16:06:26.743 [main] INFO  - User Clicked On the Delhivery in next 7 Days..
+16:06:27.025 [main] INFO  - User Enetred Car Ex Show Room Price As 9 Lakhs..
+16:06:29.581 [main] INFO  - User Selected The First Car Insurace Company..
+16:06:32.729 [main] INFO  - User Printed the Car Insurance Quote For That Company..
+19:45:25.321 [main] INFO  - Log Started In TestNG..
+19:45:25.326 [main] INFO  - User Clicked Travel Insurance..
+19:45:28.915 [main] INFO  - User Clicked Clicked Destination..
+19:45:29.405 [main] INFO  - User Selected Destination..
+19:45:33.120 [main] INFO  - User Opted the Dates..
+19:45:33.847 [main] INFO  - User selected no of persons..
+19:45:34.443 [main] INFO  - User selected first person age..
+19:45:34.841 [main] INFO  - User selected second person age..
+19:45:35.582 [main] INFO  - User Clicked No For Medical Problems..
+19:45:37.454 [main] INFO  - User Entered Mobile Number..
+19:45:53.227 [main] INFO  - User Selected Sort Price Low TO High..
+19:45:53.963 [main] INFO  - User Printed The First Three Companies..
+19:45:56.072 [main] INFO  - User Navigated to Home Page..
+19:46:44.031 [main] INFO  - Log Started In TestNG..
+19:46:44.041 [main] INFO  - User Clicked Travel Insurance..
+19:46:47.056 [main] INFO  - User Clicked Clicked Destination..
+19:46:47.660 [main] INFO  - User Selected Destination..
+19:46:51.417 [main] INFO  - User Opted the Dates..
+19:46:52.026 [main] INFO  - User selected no of persons..
+19:46:52.358 [main] INFO  - User selected first person age..
+19:46:52.630 [main] INFO  - User selected second person age..
+19:46:53.143 [main] INFO  - User Clicked No For Medical Problems..
+19:46:54.653 [main] INFO  - User Entered Mobile Number..
+19:47:01.478 [main] INFO  - User Selected Sort Price Low TO High..
+19:47:02.192 [main] INFO  - User Printed The First Three Companies..
+19:47:03.636 [main] INFO  - User Navigated to Home Page..

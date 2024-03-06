@@ -7,17 +7,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class CarInsurancePOM {
-	WebDriver driver;
+public class CarInsurancePOM extends BasePage{
 	JavascriptExecutor js;
 	Actions act;
 	public String s1;
 	public CarInsurancePOM(WebDriver driver)
 	{
-		this.driver=driver;
-		PageFactory.initElements(driver,this);
+		super(driver);
 	}
 	
 	@FindBy(xpath="(//div[@class='shadowHandlerBox'])[4]//ancestor::a")
@@ -35,13 +32,13 @@ public class CarInsurancePOM {
 //		car_no.sendKeys("DL-10-CB-1234");
 //	}
 	
-	@FindBy(xpath="//*[text()='Buying a new car? Click here']")
+	@FindBy(xpath="//*[text()='Click here ']")
 	WebElement Buying_New_car;
 	public void click_buying_new_car()
 	{
 		Buying_New_car.click();
 	}
-	@FindBy(id="spn2")
+	@FindBy(xpath="//*[text()=\"Delhi\"]//parent::li")
 	WebElement city;
 	public void select_city_delhi()
 	{
@@ -55,14 +52,14 @@ public class CarInsurancePOM {
 		DL2.click();
 	}
 	
-	@FindBy(xpath="//*[text()='VOLKSWAGEN']//parent::span")
+	@FindBy(xpath="//*[text()='VOLKSWAGEN']//parent::li")
 	WebElement volkswagen;
 	public void click_volkwagen()
 	{
 		volkswagen.click();
 	}
 	
-	@FindBy(xpath="//*[@data-modelid=\"515\"]//span")
+	@FindBy(xpath="(//*[text()=\"Ameo\"])[2]")
 	WebElement ameo;
 	public void click_ameo_car()
 	{
@@ -71,39 +68,28 @@ public class CarInsurancePOM {
 		act.click(ameo).perform();
 	}
 	
-	@FindBy(xpath="//*[@data-fueltypeid=\"7\"]//span")
+	@FindBy(xpath="//*[text()=\"Petrol\"]")
 	WebElement petrol;
 	public void click_petrol()
 	{
 		petrol.click();
 	}
 	
-	@FindBy(xpath="//*[text()=\"Highline (999 cc)\"]//parent::span")
+	@FindBy(xpath="(//*[text()=\"Highline plus (999 cc)\"])[2]")
 	WebElement model;
 	public void click_model()
 	{
 		model.click();
 	}
 	
-	
-	
-	
-//	@FindBy(id="btnGetQuotes")
-//	WebElement viewPrices;
-//	
-//	public void click_viewPrices()
-//	{
-//		viewPrices.click();
-//	}
-	
-	@FindBy(id="name")
+	@FindBy(xpath="//*[text()=\"Full name\"]//preceding::input")
 	WebElement name;
 	public void enter_name()
 	{
 		name.sendKeys("Murali");
 	}
 	
-	@FindBy(id="email")
+	@FindBy(xpath="(//*[text()=\"Your email\"]//preceding::input)[2]")
 	WebElement email;
 	public void enter_invalid_email()
 	{
@@ -117,7 +103,7 @@ public class CarInsurancePOM {
 		email.sendKeys("policy123@gmail.com");
 	}
 	
-	@FindBy(xpath="//*[text()=\"Please enter a valid e-mail ID.\"][2]")
+	@FindBy(xpath="//*[text()=\"Enter a valid email id\"]")
 	WebElement error_message;
 	public String get_email_errorMessage()
 	{
@@ -125,20 +111,33 @@ public class CarInsurancePOM {
 		return error_message.getText();
 	}
 	
-	@FindBy(id="mobileNo")
+	@FindBy(xpath="(//*[text()=\"Mobile number\"]//preceding::input)[3]")
 	WebElement mobile_no;
 	public void send_mob_No()
 	{
 		mobile_no.sendKeys("9812312346");
 	}
 	
-	@FindBy(xpath="(//*[text()='View Prices']//parent::button)")
+	@FindBy(xpath="//*[text()=\"View Prices\"]")
 	WebElement view_prices;
 	
 	public void click_view_prices()
 	{
+	try
+	{
+	act.moveToElement(view_prices).click().perform();
+	}
+	catch(Exception e)
+	{
+	}
+	try {
 		js=(JavascriptExecutor)driver;
-		js.executeScript("arguments[0].click()",view_prices);	
+		js.executeScript("arguments[0].click()",view_prices);
+	}
+	catch(Exception e)
+	{
+		
+	}
 		
 	}
 	
@@ -146,7 +145,7 @@ public class CarInsurancePOM {
 	WebElement Next_7_Days;
 	public void click_Next_7_Days()
 	{
-		Actions act=new Actions(driver);
+		
 		act.moveToElement(Next_7_Days).perform();
 		act.click().perform();
 	}

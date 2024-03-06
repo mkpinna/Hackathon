@@ -7,16 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-
-public class Health_InsurancePOM {
-	WebDriver driver;
+public class Health_InsurancePOM extends BasePage{
 	Actions act;
 	List<String> temp;  
 	public Health_InsurancePOM(WebDriver driver)
 	{
-		this.driver=driver;
-		PageFactory.initElements(driver,this);
+		super(driver);
 	}
 	@FindBy(xpath="//*[text()=\"Insurance Products \"]")
 	WebElement insurace_Products;

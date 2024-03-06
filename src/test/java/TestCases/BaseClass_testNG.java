@@ -88,34 +88,16 @@ public class BaseClass_testNG {
 						return;
 			}
 		}
-		  
+		  driver.manage().deleteAllCookies();
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		  driver.navigate().to(p.getProperty("URL"));
-		  driver.manage().window().maximize();
-		  driver.manage().deleteAllCookies();
+		  driver.manage().window().maximize(); 
 		  ExcelUtil.excelInit();
 	  }
 
-	  @AfterClass
+	  @AfterClass(alwaysRun = true)
 	  public void afterClass() throws IOException {
 		 ExcelUtil.closeExcel();
 		 driver.quit();
 	  }
 }
-
-
-//DesiredCapabilities capabilities=new DesiredCapabilities();
-//capabilities.setPlatform(Platform.WIN11);
-// if(browser.equals("chrome"))
-// {
-//	  capabilities.setBrowserName("chrome");
-//	  ChromeOptions option = new ChromeOptions();
-//		option.addArguments("--disable-blink-features=AutomationControlled");
-//		option.addArguments("--disable-notifications");
-//		driver=new ChromeDriver(option);
-// }
-// else if(browser.equals("edge"))
-// {
-//	  
-//	  driver=new EdgeDriver();
-// }

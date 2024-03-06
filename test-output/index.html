@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\2303852\eclipse-workspace\Hackathon\crossbrowser.xml</span>
+                    <span>C:\Users\2303852\eclipse-workspace\Hackathon\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>5 groups</span>
+                    <span>6 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">21 methods, 2 failed,   19 passed</span>
+                    <span class="method-stats">21 methods, 4 failed,  1 skipped,  16 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,15 +103,39 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="enter_invalid_email">enter_invalid_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="enter_new_car_details">enter_new_car_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="enter_valid_email">enter_valid_email</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="entering_health_insurance_details">entering_health_insurance_details</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="go_to_HomePage">go_to_HomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="entering_health_insurance_details">entering_health_insurance_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -142,27 +166,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="enter_invalid_email">enter_invalid_email</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="enter_mob_no">enter_mob_no</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="enter_new_car_details">enter_new_car_details</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="go_To_Home_Page">go_To_Home_Page</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCases.Tests" class="method navigator-link" hash-for-method="go_to_HomePage">go_to_HomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -235,104 +244,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="enter_valid_email">
-                  </a> <!-- enter_valid_email -->
-                  <span class="method-name">enter_valid_email</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;summaryFormPF&apos;]&quot;}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [394d3f0b2148edd59d6c825523a91528, findElement {value=summaryFormPF, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55879/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 394d3f0b2148edd59d6c825523a91528
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source)
-	at pageObjects.CarInsurancePOM.getInsuranceQuote(CarInsurancePOM.java:179)
-	at TestCases.Tests.enter_valid_email(Tests.java:187)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="entering_health_insurance_details">
-                  </a> <!-- entering_health_insurance_details -->
-                  <span class="method-name">entering_health_insurance_details</span>
-                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [394d3f0b2148edd59d6c825523a91528, actions {actions=[org.openqa.selenium.interactions.Sequence@72e21356]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55879/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 394d3f0b2148edd59d6c825523a91528
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
-	at java.base/java.util.Map.forEach(Map.java:713)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
-	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
-	at org.openqa.selenium.json.Json.toJson(Json.java:133)
-	at org.openqa.selenium.json.Json.toJson(Json.java:119)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
-	at pageObjects.Health_InsurancePOM.hoverToInsuraceProducts(Health_InsurancePOM.java:26)
-	at TestCases.Tests.entering_health_insurance_details(Tests.java:205)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
-		at org.openqa.selenium.json.Json.toJson(Json.java:131)
-		... 34 more
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
-	... 55 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[text()=&quot;Insurance Products &quot;]
+                  <a name="enter_invalid_email">
+                  </a> <!-- enter_invalid_email -->
+                  <span class="method-name">enter_invalid_email</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[text()=&quot;Full name&quot;]//preceding::input
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
@@ -343,18 +258,140 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
-	... 60 more
-... Removed 22 stack frames
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+	at pageObjects.CarInsurancePOM.enter_name(CarInsurancePOM.java:89)
+	at TestCases.Tests.enter_invalid_email(Tests.java:163)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_new_car_details">
+                  </a> <!-- enter_new_car_details -->
+                  <span class="method-name">enter_new_car_details</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Click here &apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ebadcabc99bf24a9419f786acd59eca4, findElement {using=xpath, value=//*[text()=&apos;Click here &apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59652}, msedge: {msedgedriverVersion: 122.0.2365.66 (ab363614b8f0..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59652/devtoo..., se:cdpVersion: 122.0.2365.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebadcabc99bf24a9419f786acd59eca4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObjects.CarInsurancePOM.click_buying_new_car(CarInsurancePOM.java:39)
+	at TestCases.Tests.enter_new_car_details(Tests.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_valid_email">
+                  </a> <!-- enter_valid_email -->
+                  <span class="method-name">enter_valid_email</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=122.0.2365.66)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ebadcabc99bf24a9419f786acd59eca4, findElement {using=xpath, value=(//*[text()=&quot;Your email&quot;]//preceding::input)[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59652}, msedge: {msedgedriverVersion: 122.0.2365.66 (ab363614b8f0..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59652/devtoo..., se:cdpVersion: 122.0.2365.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebadcabc99bf24a9419f786acd59eca4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+	at pageObjects.CarInsurancePOM.enter_valid_email(CarInsurancePOM.java:101)
+	at TestCases.Tests.enter_valid_email(Tests.java:175)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="go_to_HomePage">
+                  </a> <!-- go_to_HomePage -->
+                  <span class="method-name">go_to_HomePage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=122.0.2365.66)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ebadcabc99bf24a9419f786acd59eca4, findElement {using=xpath, value=//*[@class=&quot;logo&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59652}, msedge: {msedgedriverVersion: 122.0.2365.66 (ab363614b8f0..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59652/devtoo..., se:cdpVersion: 122.0.2365.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebadcabc99bf24a9419f786acd59eca4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObjects.CarInsurancePOM.click_logo(CarInsurancePOM.java:185)
+	at TestCases.Tests.go_to_HomePage(Tests.java:197)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="entering_health_insurance_details">
+                  </a> <!-- entering_health_insurance_details -->
+                  <span class="method-name">entering_health_insurance_details</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Tests.entering_health_insurance_details()[pri:20, instance:TestCases.Tests@7dc0f706] depends on not successfully finished methods in group &quot;smoke Test Three&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -391,13 +428,6 @@ Driver info: driver.version: RemoteWebDriver
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="enter_invalid_email">
-                  </a> <!-- enter_invalid_email -->
-                  <span class="method-name">enter_invalid_email</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="enter_mob_no">
                   </a> <!-- enter_mob_no -->
                   <span class="method-name">enter_mob_no</span>
@@ -405,23 +435,9 @@ Driver info: driver.version: RemoteWebDriver
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="enter_new_car_details">
-                  </a> <!-- enter_new_car_details -->
-                  <span class="method-name">enter_new_car_details</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="go_To_Home_Page">
                   </a> <!-- go_To_Home_Page -->
                   <span class="method-name">go_To_Home_Page</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="go_to_HomePage">
-                  </a> <!-- go_to_HomePage -->
-                  <span class="method-name">go_to_HomePage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -499,23 +515,23 @@ Driver info: driver.version: RemoteWebDriver
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2303852\eclipse-workspace\Hackathon\crossbrowser.xml</span>
+            <span class="header-content">C:\Users\2303852\eclipse-workspace\Hackathon\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;END TO END Testing&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestCases.Tests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;/test&gt; &lt;!-- END TO END Testing --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -527,7 +543,7 @@ Driver info: driver.version: RemoteWebDriver
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ChromeTest (1 class)</span>
+                <span class="test-name">END TO END Testing (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -618,6 +634,14 @@ Driver info: driver.version: RemoteWebDriver
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
+              <span class="test-group-name">smoke Test Three</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">go_to_HomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">smoke Test Two</span>
               <br/>
               <div class="method-in-group">
@@ -651,94 +675,94 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(21);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'enter_valid_email')
+data.setCell(0, 1, 'enter_new_car_details')
 data.setCell(0, 2, 'TestCases.Tests')
-data.setCell(0, 3, 16200);
+data.setCell(0, 3, 10021);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'lowest_prices_of_three_insurances')
 data.setCell(1, 2, 'TestCases.Tests')
-data.setCell(1, 3, 15491);
+data.setCell(1, 3, 6655);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'enter_new_car_details')
+data.setCell(2, 1, 'enter_invalid_email')
 data.setCell(2, 2, 'TestCases.Tests')
-data.setCell(2, 3, 7851);
+data.setCell(2, 3, 5425);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'select_destination')
 data.setCell(3, 2, 'TestCases.Tests')
-data.setCell(3, 3, 2959);
+data.setCell(3, 3, 3869);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'next_Fuctionality')
 data.setCell(4, 2, 'TestCases.Tests')
-data.setCell(4, 3, 2246);
+data.setCell(4, 3, 2272);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'go_To_Home_Page')
 data.setCell(5, 2, 'TestCases.Tests')
-data.setCell(5, 3, 2068);
+data.setCell(5, 3, 1868);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'enter_invalid_email')
+data.setCell(6, 1, 'enter_mob_no')
 data.setCell(6, 2, 'TestCases.Tests')
-data.setCell(6, 3, 1402);
+data.setCell(6, 3, 1478);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'enter_mob_no')
+data.setCell(7, 1, 'select_Date')
 data.setCell(7, 2, 'TestCases.Tests')
-data.setCell(7, 3, 1317);
+data.setCell(7, 3, 1331);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'select_Date')
+data.setCell(8, 1, 'print_First_Three_companies')
 data.setCell(8, 2, 'TestCases.Tests')
-data.setCell(8, 3, 1181);
+data.setCell(8, 3, 698);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'print_First_Three_companies')
+data.setCell(9, 1, 'drop_2_and_Next')
 data.setCell(9, 2, 'TestCases.Tests')
-data.setCell(9, 3, 622);
+data.setCell(9, 3, 456);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'go_to_HomePage')
+data.setCell(10, 1, 'open_car_insurance')
 data.setCell(10, 2, 'TestCases.Tests')
-data.setCell(10, 3, 487);
+data.setCell(10, 3, 405);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'drop_2_and_Next')
+data.setCell(11, 1, 'open_travel_insurance')
 data.setCell(11, 2, 'TestCases.Tests')
-data.setCell(11, 3, 465);
+data.setCell(11, 3, 352);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'open_car_insurance')
+data.setCell(12, 1, 'drop_1')
 data.setCell(12, 2, 'TestCases.Tests')
-data.setCell(12, 3, 425);
+data.setCell(12, 3, 329);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'open_travel_insurance')
+data.setCell(13, 1, 'press_no')
 data.setCell(13, 2, 'TestCases.Tests')
-data.setCell(13, 3, 411);
+data.setCell(13, 3, 323);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'press_no')
+data.setCell(14, 1, 'click_Date')
 data.setCell(14, 2, 'TestCases.Tests')
-data.setCell(14, 3, 377);
+data.setCell(14, 3, 258);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'click_Date')
+data.setCell(15, 1, 'click_No_of_persons')
 data.setCell(15, 2, 'TestCases.Tests')
-data.setCell(15, 3, 344);
+data.setCell(15, 3, 191);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'click_No_of_persons')
+data.setCell(16, 1, 'press_Viewplan')
 data.setCell(16, 2, 'TestCases.Tests')
-data.setCell(16, 3, 334);
+data.setCell(16, 3, 163);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'drop_1')
+data.setCell(17, 1, 'next_click_no')
 data.setCell(17, 2, 'TestCases.Tests')
-data.setCell(17, 3, 326);
+data.setCell(17, 3, 26);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'press_Viewplan')
+data.setCell(18, 1, 'go_to_HomePage')
 data.setCell(18, 2, 'TestCases.Tests')
-data.setCell(18, 3, 221);
+data.setCell(18, 3, 25);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'entering_health_insurance_details')
+data.setCell(19, 1, 'enter_valid_email')
 data.setCell(19, 2, 'TestCases.Tests')
-data.setCell(19, 3, 109);
+data.setCell(19, 3, 22);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'next_click_no')
+data.setCell(20, 1, 'entering_health_insurance_details')
 data.setCell(20, 2, 'TestCases.Tests')
-data.setCell(20, 3, 21);
+data.setCell(20, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -766,100 +790,100 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.Tests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">beforeClass(windows, chrome)</span>
+                <span class="method-name">beforeClass(windows, edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">open_travel_insurance</span>
-                <span class="method-start">9520 ms</span>
+                <span class="method-start">13527 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">select_destination</span>
-                <span class="method-start">9978 ms</span>
+                <span class="method-start">13927 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">next_Fuctionality</span>
-                <span class="method-start">12943 ms</span>
+                <span class="method-start">17803 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">click_Date</span>
-                <span class="method-start">15193 ms</span>
+                <span class="method-start">20078 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">select_Date</span>
-                <span class="method-start">15541 ms</span>
+                <span class="method-start">20339 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">click_No_of_persons</span>
-                <span class="method-start">16725 ms</span>
+                <span class="method-start">21673 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">drop_1</span>
-                <span class="method-start">17061 ms</span>
+                <span class="method-start">21867 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">drop_2_and_Next</span>
-                <span class="method-start">17390 ms</span>
+                <span class="method-start">22199 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">press_no</span>
-                <span class="method-start">17858 ms</span>
+                <span class="method-start">22658 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">next_click_no</span>
-                <span class="method-start">18237 ms</span>
+                <span class="method-start">22984 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">enter_mob_no</span>
-                <span class="method-start">18261 ms</span>
+                <span class="method-start">23013 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">press_Viewplan</span>
-                <span class="method-start">19582 ms</span>
+                <span class="method-start">24495 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">lowest_prices_of_three_insurances</span>
-                <span class="method-start">19806 ms</span>
+                <span class="method-start">24661 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">print_First_Three_companies</span>
-                <span class="method-start">35302 ms</span>
+                <span class="method-start">31333 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">go_To_Home_Page</span>
-                <span class="method-start">35928 ms</span>
+                <span class="method-start">32034 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">open_car_insurance</span>
-                <span class="method-start">37999 ms</span>
+                <span class="method-start">33905 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">enter_new_car_details</span>
-                <span class="method-start">38428 ms</span>
+                <span class="method-start">34313 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">enter_invalid_email</span>
-                <span class="method-start">46284 ms</span>
+                <span class="method-start">44339 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">enter_valid_email</span>
-                <span class="method-start">47689 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">go_to_HomePage</span>
-                <span class="method-start">63900 ms</span>
+                <span class="method-start">49777 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">entering_health_insurance_details</span>
-                <span class="method-start">64390 ms</span>
+                <span class="method-name">go_to_HomePage</span>
+                <span class="method-start">49809 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">64508 ms</span>
+                <span class="method-start">49894 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

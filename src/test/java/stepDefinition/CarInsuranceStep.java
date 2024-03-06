@@ -1,4 +1,4 @@
-package stepDefination;
+package stepDefinition;
 
 import org.apache.logging.log4j.Logger;
 

@@ -5,9 +5,10 @@
     <classes>
       <class name="TestCases.Tests">
         <methods>
-          <include name="afterClass"/>
           <include name="beforeClass"/>
-          <include name="select_Date"/>
+          <include name="select_destination"/>
+          <include name="afterClass"/>
+          <include name="open_travel_insurance"/>
         </methods>
       </class> <!-- TestCases.Tests -->
     </classes>

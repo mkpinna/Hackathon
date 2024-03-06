@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -25,10 +26,7 @@ public class BaseClass{
 	{
 		if(getProperties().getProperty("execution_env").equalsIgnoreCase("remote"))
 		{
-			ChromeOptions option = new ChromeOptions();
-			option.addArguments("--disable-blink-features=AutomationControlled");
-			option.addArguments("--disable-notifications");
-			DesiredCapabilities capabilities=new DesiredCapabilities(option);
+			DesiredCapabilities capabilities=new DesiredCapabilities();
 			
 			//os
 			if (getProperties().getProperty("os").equalsIgnoreCase("windows")) {
@@ -64,7 +62,10 @@ public class BaseClass{
 					driver=new ChromeDriver(option); 
 			        break;
 			    case "edge":
-			    	driver=new EdgeDriver();
+			    	EdgeOptions option2=new EdgeOptions();
+			    	option2.addArguments("--disable-blink-features=AutomationControlled");
+					option2.addArguments("--disable-notifications");
+					driver=new EdgeDriver(option2); 
 			        break;
 			    default:
 			        System.out.println("No matching browser");

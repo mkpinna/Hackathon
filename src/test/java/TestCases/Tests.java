@@ -191,14 +191,14 @@ public class Tests extends BaseClass_testNG {
 		
 	}
 	
-	@Test(priority=19)
+	@Test(priority=19,groups={"smoke Test Three"})
 	public void go_to_HomePage()
 	{
 		obj2.click_logo();
 		log.info("User Navigated To The Home Page..");
 	}
 	
-	@Test(priority=20,groups= {"regression Test Three"})
+	@Test(priority=20,groups= {"regression Test Three"},dependsOnGroups = {"smoke Test Three"})
 	public void entering_health_insurance_details() throws IOException
 	{
 		Health_InsurancePOM obj3=new Health_InsurancePOM(driver);
